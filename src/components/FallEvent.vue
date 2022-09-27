@@ -37,6 +37,8 @@
             </div>
             <div class="ground"></div>
 
+            <a href="https://github.com/K-John/FallWebsiteEvent" target="_blank" class="source-link"><img src="../assets/github.svg" />Open Source by Kendall Johnson</a>
+
         </div>
     </div>
 </template>
@@ -254,5 +256,19 @@ export default {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.source-link {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.source-link img {
+    width: 20px;
+    margin-right: 5px;
 }
 </style>
